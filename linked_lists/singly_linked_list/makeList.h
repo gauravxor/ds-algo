@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 struct NODE
 {
@@ -19,7 +20,7 @@ NODE * createNode(NODE * headNode, int number)
 		return newNode;
 	
 	NODE * currentNode = headNode;
-	
+
 	while(currentNode->next != nullptr)
 		currentNode = currentNode->next;
 	
@@ -43,5 +44,21 @@ void printList(NODE * headNode)
 		}
 	}
 
+	cout << "\n";
+}
+
+
+
+void printListBackward(NODE * headNode)
+{
+	vector<int> v;
+	while(headNode != nullptr)
+	{
+		v.push_back(headNode->data);
+		headNode = headNode->next;
+	}
+
+	for(auto it = v.rbegin(); it!=v.rend(); it++) 
+		cout << *it << " ";
 	cout << "\n";
 }
