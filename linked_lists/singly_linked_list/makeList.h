@@ -12,6 +12,8 @@ struct NODE
 };
 
 
+// function to make new NODES for the list and
+// insert them with the tail
 
 NODE * createNode(NODE * headNode, int number)
 {
