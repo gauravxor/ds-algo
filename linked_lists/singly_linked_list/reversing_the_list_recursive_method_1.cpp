@@ -1,16 +1,15 @@
+/** In this process we call the function recursively to the
+ *  get last node and use that node to link link with the 
+ *  remaining N-1 nodes.
+ *  To put it in simple way, list starts getting reversed from 
+ *  the back (i.e job is done while retuninig back to the main
+ *  caller of the function) 
+ * 
+ *  Input : 10 20
+ *  Output: 20 10
+**/
+
 #include "makeList.h"
-
-
-// In this process we call the function recursively to the
-// get last node and use that node to link link with the 
-// remaining N-1 nodes.
-// 
-// To put it in simple way, list starts getting reversed from 
-// the back (i.e job is done while retuninig back to the main
-// caller of the function)
-// 
-// Input : 10 20
-// Output: 20 10
 NODE * reverseList(NODE * headNode)
 {
     if(headNode == nullptr || headNode->next == nullptr)

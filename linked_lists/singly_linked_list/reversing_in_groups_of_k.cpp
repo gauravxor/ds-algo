@@ -91,8 +91,9 @@ NODE * modifyList(NODE * headNode,int k)
 int main()
 {
     int nodes;
+    vector<int> v;
+    v.resize(10);
     cin >> nodes;
-
     NODE * head = nullptr;
     int data;
 
@@ -104,7 +105,6 @@ int main()
 
     cout << "The original list is\n";
     printList(head);
-
     cout << "Enter the value of K\n";
     int k;
     cin >> k;
