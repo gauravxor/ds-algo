@@ -1,0 +1,13 @@
+Time and space complexity for various operations on arrays
+
+1) Insert : O(n)
+            O(1)    -> from end
+
+2) Search : O(n)    -> for unsorted 
+            O(logn) -> for sorted
+
+3) Delete : O(n)
+            O(1)    -> from end
+
+Getting ith element  : O(1)
+Updating ith element : O(1)

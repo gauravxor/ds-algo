@@ -16,7 +16,8 @@
                 "close": false
             },
             "command": "g++ -std=c++17 -g ${file} -o ${fileDirname}/${fileBasenameNoExtension}.o",
-            "problemMatcher": [{
+            "problemMatcher": [
+            {
                 // "owner": "cpp",
                 "base": "$gcc",
                 "fileLocation": [
