@@ -57,7 +57,7 @@ int findIndex(int * arr, int low, int high, int key)
 
 int main()
 {
-     int size;
+    int size;
     cout << "Enter the size of the array\n";
     cin >> size;
 
