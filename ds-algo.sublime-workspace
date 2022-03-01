@@ -1,0 +1,1224 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"second",
+				"secondPointer"
+			],
+			[
+				"strn",
+				"strncasecmp"
+			],
+			[
+				"f",
+				"first"
+			],
+			[
+				"io",
+				"stdio.h"
+			],
+			[
+				"close",
+				"CLD_STOPPED"
+			],
+			[
+				"outtext",
+				"outtextxy"
+			],
+			[
+				"mod",
+				"modList"
+			],
+			[
+				"tw",
+				"twelve"
+			],
+			[
+				"p",
+				"push_back"
+			],
+			[
+				"forwa",
+				"forward_list"
+			],
+			[
+				"b",
+				"begin"
+			],
+			[
+				"se",
+				"second"
+			],
+			[
+				"usng",
+				"using namespace"
+			],
+			[
+				"begi",
+				"beginend"
+			],
+			[
+				"print",
+				"print_range"
+			],
+			[
+				"prin",
+				"print_list"
+			],
+			[
+				"crea",
+				"create_node"
+			],
+			[
+				"count",
+				"_Sp_counted_ptr"
+			],
+			[
+				"fo",
+				"found"
+			],
+			[
+				"type_",
+				"type_info"
+			],
+			[
+				"typ",
+				"typeof"
+			],
+			[
+				"bit",
+				"bits/"
+			],
+			[
+				"unset",
+				"unsetBits"
+			],
+			[
+				"uns",
+				"unsetBits"
+			],
+			[
+				"c",
+				"cbits"
+			],
+			[
+				"vec",
+				"vector"
+			],
+			[
+				"pr",
+				"proc"
+			],
+			[
+				"icn",
+				"include"
+			],
+			[
+				"be",
+				"beginend"
+			],
+			[
+				"e",
+				"end"
+			],
+			[
+				"co",
+				"code"
+			],
+			[
+				"dele",
+				"delete_node"
+			],
+			[
+				"cou",
+				"count_node"
+			],
+			[
+				"repla",
+				"replace_position"
+			],
+			[
+				"re",
+				"replace_position"
+			],
+			[
+				"pal",
+				"Pallindrome"
+			],
+			[
+				"i",
+				"include"
+			],
+			[
+				"posi",
+				"position_of_nodes"
+			],
+			[
+				"pos",
+				"position_of_nodes"
+			],
+			[
+				"delete_",
+				"delete_node"
+			],
+			[
+				"star",
+				"start"
+			],
+			[
+				"first",
+				"firstZero"
+			],
+			[
+				"firts",
+				"firstZero"
+			],
+			[
+				"inser",
+				"insterted"
+			],
+			[
+				"le",
+				"length1"
+			],
+			[
+				"pi",
+				"print_arr"
+			],
+			[
+				"possible",
+				"possibleSalt"
+			],
+			[
+				"av",
+				"avdrink"
+			],
+			[
+				"pis",
+				"possibleDrink"
+			],
+			[
+				"las",
+				"lastNumber"
+			],
+			[
+				"a",
+				"main"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "algorithms/primes/sieve_of_eratosthenes.cpp",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "➜  algorithms git:(master) ✗ ",
+			"settings":
+			{
+				"buffer_size": 29,
+				"line_ending": "Unix",
+				"name": "Login Shell",
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					205,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAAAAAAAAAAAAHgAAAAAAAAAhAAAA4p6cICBhbGdvcml0aG1zIGdpdDoobWFzdGVyKSDinJcgHgAAAAAAAAA4AAAAAAAAAAAAAAAeAAAAAAAAAB4AAAAAAAAAGgAAACAgICAgICAgICAgICAgICAgICAgICAgICAg",
+					"AQAAAAAAAAABAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					207,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAAAAAAAAAAAAHwAAAAAAAAAiAAAA4p6cICBhbGdvcml0aG1zIGdpdDoobWFzdGVyKSDinJcgZx8AAAAAAAAAOAAAAAAAAAAAAAAAHwAAAAAAAAAfAAAAAAAAABkAAAAgICAgICAgICAgICAgICAgICAgICAgICAg",
+					"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					209,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAAAAAAAAAAAAIAAAAAAAAAAjAAAA4p6cICBhbGdvcml0aG1zIGdpdDoobWFzdGVyKSDinJcgZ2kgAAAAAAAAADgAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAYAAAAICAgICAgICAgICAgICAgICAgICAgICAg",
+					"AQAAAAAAAAABAAAAHwAAAAAAAAAfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					211,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAAAAAAAAAAAAIAAAAAAAAAAkAAAA4p6cICBhbGdvcml0aG1zIGdpdDoobWFzdGVyKSDinJcgZ2l0IAAAAAAAAAA4AAAAAAAAAAAAAAAhAAAAAAAAACEAAAAAAAAAFwAAACAgICAgICAgICAgICAgICAgICAgICAg",
+					"AQAAAAAAAAABAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					213,
+					1,
+					"terminus_render",
+					null,
+					"AQAAACAAAAAAAAAAIAAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAIQAAAAAAAAAhAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					215,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAAAAAAAAAAAAHwAAAAAAAAAkAAAA4p6cICBhbGdvcml0aG1zIGdpdDoobWFzdGVyKSDinJcgZ2l0HwAAAAAAAAA4AAAAAAAAAAAAAAAfAAAAAAAAAB8AAAAAAAAAGQAAACAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"AQAAAAAAAAABAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					217,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAAAAAAAAAAAAHgAAAAAAAAAjAAAA4p6cICBhbGdvcml0aG1zIGdpdDoobWFzdGVyKSDinJcgZ2keAAAAAAAAADgAAAAAAAAAAAAAAB4AAAAAAAAAHgAAAAAAAAAaAAAAICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"AQAAAAAAAAABAAAAHwAAAAAAAAAfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					219,
+					1,
+					"terminus_render",
+					null,
+					"AwAAAAAAAAAAAAAAHAAAAAAAAAAiAAAA4p6cICBhbGdvcml0aG1zIGdpdDoobWFzdGVyKSDinJcgZxwAAAAAAAAAOAAAAAAAAAAAAAAAHQAAAAAAAAAdAAAAAAAAABsAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/Competitive Programming/Test C++.sublime-build",
+					""
+				],
+				[
+					"Packages/Competitive Programming/Test C++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Competitive Programming/Test C++.sublime-build",
+					""
+				],
+				[
+					"Packages/Competitive Programming/Test C++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Competitive Programming/Test C++.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"termins",
+				"Terminus: List Shells"
+			],
+			[
+				"terminus",
+				"Terminus: List Shells"
+			],
+			[
+				"resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"remvoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"termin",
+				"Terminus: List Shells"
+			],
+			[
+				"list",
+				"Terminus: List Shells"
+			],
+			[
+				"package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"lsp",
+				"LSP: Troubleshoot Server"
+			],
+			[
+				"debg",
+				"Debugger: Start"
+			],
+			[
+				"debugger",
+				"Debugger: Install Adapters"
+			],
+			[
+				"debug",
+				"Debugger: Start (no debug)"
+			],
+			[
+				"package res",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"debguu",
+				"Debugger: Run Task"
+			],
+			[
+				"deb",
+				"Debugger: Start"
+			],
+			[
+				"debuger",
+				"Debugger: Install Adapters"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ter",
+				"Terminus: List Shells"
+			],
+			[
+				"term",
+				"Terminus: List Shells"
+			],
+			[
+				"code",
+				"Code Time: View Dashboard"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"debuf",
+				"Debugger: Add or Select Configuration"
+			],
+			[
+				"gdb",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"debug con",
+				"Debugger: Add or Select Configuration"
+			],
+			[
+				"debgi",
+				"Debugger: LLDB Display Options"
+			],
+			[
+				"debug conf",
+				"Debugger: Add or Select Configuration"
+			],
+			[
+				"add confi",
+				"Debugger: Add or Select Configuration"
+			],
+			[
+				"debugg",
+				"Debugger: Open"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ls",
+				"LSP: Troubleshoot Server"
+			],
+			[
+				"clang",
+				"Clang Format: Set Path"
+			],
+			[
+				"terminis",
+				"Terminus: List Shells"
+			],
+			[
+				"globa",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"trou",
+				"LSP: Troubleshoot Server"
+			],
+			[
+				"keybi",
+				"Preferences: Key Bindings"
+			],
+			[
+				"format",
+				"Clang Format: Format Selection"
+			],
+			[
+				"open",
+				"Origami: Create Pane Below"
+			],
+			[
+				"resurce",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"installc",
+				"Package Control: Install Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"package re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"troubl",
+				"LSP: Troubleshoot Server"
+			],
+			[
+				"tr",
+				"LSP: Troubleshoot Server"
+			],
+			[
+				"server",
+				"LSP: Troubleshoot Server"
+			],
+			[
+				"cla",
+				"Clang Format: Select Style"
+			],
+			[
+				"pac",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"lsp:",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"packa",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"li",
+				"Terminus: List Shells"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"resour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #include \"…\""
+			],
+			[
+				"rsour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"termi",
+				"Terminus: List Shells"
+			],
+			[
+				"pack",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"",
+				"UI: Select Color Scheme"
+			],
+			[
+				"package resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"list sh",
+				"Terminus: List Shells"
+			],
+			[
+				"clanf",
+				"Clang Format: Format Selection"
+			],
+			[
+				"termn",
+				"Terminus: List Shells"
+			],
+			[
+				"reso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"instal ",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 108.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/gaurav/ds-algo",
+		"/home/gaurav/ds-algo/algorithms",
+		"/home/gaurav/ds-algo/algorithms/primes"
+	],
+	"file_history":
+	[
+		"/home/gaurav/ds-algo/=",
+		"/home/gaurav/competitive/solve.cpp",
+		"/home/gaurav/Desktop/jv/whileLoop.java",
+		"/home/gaurav/competitive/test",
+		"/home/gaurav/Desktop/training/hello.c",
+		"/home/gaurav/competitive/test.cpp",
+		"/home/gaurav/Desktop/javaExam/runner.java",
+		"/home/gaurav/Desktop/javaExam/linearSearch.java",
+		"/home/gaurav/Desktop/xm/hello.c",
+		"/home/gaurav/competitive/test_cases",
+		"/home/gaurav/competitive/gen.cpp",
+		"/home/gaurav/Desktop/xm/final.sh",
+		"/home/gaurav/Desktop/xm/question1.java",
+		"/home/gaurav/Desktop/xm/pattern2.sh",
+		"/home/gaurav/Desktop/xm/pattern1.sh",
+		"/home/gaurav/.config/sublime-text/Packages/C++/C Single File.sublime-build",
+		"/home/gaurav/Desktop/xm/fcfs.c",
+		"/home/gaurav/extensions/nerd-theme/extra_settings",
+		"/home/gaurav/Desktop/semester/graphicsExam/ddaLine.c",
+		"/home/gaurav/Desktop/screensaver project/screensaver.py",
+		"/home/gaurav/Desktop/semester/graphics/3D_Transformation11.c",
+		"/home/gaurav/competitive/gen.",
+		"/home/gaurav/Desktop/semester/os/srtfAss12.c",
+		"/home/gaurav/Desktop/semester/os/sjfAss11.cpp",
+		"/home/gaurav/Desktop/semester/os/sjfAss11.c",
+		"/home/gaurav/Desktop/semester/os/fcfsAss10.c",
+		"/home/gaurav/Desktop/semester/os/specialAss9.sh",
+		"/home/gaurav/Desktop/semester/os/numSumAss8.sh",
+		"/home/gaurav/Desktop/semester/os/evenAss7.sh",
+		"/home/gaurav/Desktop/semester/os/oddAdd6.sh",
+		"/home/gaurav/Desktop/semester/os/switchAss5.sh",
+		"/home/gaurav/Desktop/semester/os/largestAss4.sh",
+		"/home/gaurav/Desktop/semester/os/largestAss4.c",
+		"/home/gaurav/Desktop/semester/graphics/boundaryFill10.c",
+		"/home/gaurav/Desktop/semester/os/gradeAss3.sh",
+		"/home/gaurav/Desktop/semester/graphics/3D_Transformation11.",
+		"/home/gaurav/Desktop/semester/graphics/bezier_curve12.c",
+		"/home/gaurav/TC/BIN/2D_Transformation8.c",
+		"/home/gaurav/Desktop/semester/graphics/2D_Transformation8.c",
+		"/home/gaurav/Desktop/tech/code.c",
+		"/home/gaurav/Desktop/semester/graphics/colouringObjects9.c",
+		"/home/gaurav/Desktop/semester/graphics/2dObjects.c",
+		"/home/gaurav/Desktop/tech/2dObjects.c",
+		"/home/gaurav/Desktop/semester/graphics/ellipseMidPoint6.c",
+		"/home/gaurav/Desktop/semester/graphics/ddaLineAss3.c",
+		"/home/gaurav/Desktop/semester/graphics/assignment2.c",
+		"/home/gaurav/Desktop/semester/graphics/midpointCircle5.c",
+		"/home/gaurav/Desktop/semester/graphics/assignment1.c",
+		"/home/gaurav/Desktop/semester/graphics/bresenhamAlgo.c",
+		"/home/gaurav/Desktop/ocw5/reverseGroup.cpp",
+		"/home/gaurav/Desktop/ocw5/mergeSorted.cpp",
+		"/usr/include/c++/9/bits/stl_map.h",
+		"/home/gaurav/competitive/cp.sublime-project",
+		"/build/glibc-eX1tMB/glibc-2.31/csu/libc-start.c",
+		"/build/glibc-eX1tMB/glibc-2.31/stdlib/exit.c",
+		"/home/gaurav/.config/sublime-text/Packages/C++/C++ Single File.sublime-build",
+		"/home/gaurav/code/competitive/project_euler/problem_8_dp.cpp",
+		"/home/gaurav/code/competitive/project_euler/problem_8_naive.cpp",
+		"/home/gaurav/code/competitive/cp.sublime-project",
+		"/home/gaurav/code/competitive/gen.cpp",
+		"/home/gaurav/code/competitive/brute.cpp",
+		"/home/gaurav/code/competitive/solve.cpp",
+		"/home/gaurav/code/competitive/main.cpp",
+		"/home/gaurav/Desktop/dwi.py",
+		"/home/gaurav/code/competitive/lost.cpp",
+		"/home/gaurav/Desktop/overflow/solve.py",
+		"/home/gaurav/code/competitive/test.cpp",
+		"/home/gaurav/code/competitive/test_cases",
+		"/home/gaurav/code/competitive/right",
+		"/home/gaurav/code/competitive/wrong",
+		"/home/gaurav/code/competitive/in",
+		"/home/gaurav/code/competitive/stress.sh",
+		"/home/gaurav/code/competitive/out",
+		"/home/gaurav/code/competitive/done/codechef/CANDY123.cpp",
+		"/home/gaurav/code/competitive/done/codechef/VCS.cpp",
+		"/home/gaurav/code/competitive/done/codechef/TANDJ1.cpp",
+		"/home/gaurav/code/competitive/done/codechef/SNAKPROC.cpp",
+		"/home/gaurav/code/competitive/done/codechef/WDTBAM.cpp",
+		"/home/gaurav/code/competitive/practice.cpp",
+		"/home/gaurav/code/competitive/gaurav.c++",
+		"/home/gaurav/.config/sublime-text/Packages/C++/C++ Standard Includes.sublime-completions",
+		"/home/gaurav/.config/sublime-text/Packages/C++/C++.sublime-settings",
+		"/home/gaurav/.config/sublime-text/Packages/C++/C++.sublime-syntax",
+		"/home/gaurav/code/competitive/srtf.c",
+		"/home/gaurav/code/practice/srtf_scheduler.cpp",
+		"/home/gaurav/code/competitive/.clang-format",
+		"/home/gaurav/.config/sublime-text/Packages/User/clang_format.sublime-settings",
+		"/home/gaurav/.config/sublime-text/Packages/Clang Format/clang_format_custom.sublime-settings",
+		"/home/gaurav/.config/sublime-text/Packages/Clang Format/clang_format.sublime-settings",
+		"/home/gaurav/.config/sublime-text/Packages/User/clang_format_custom.sublime-settings",
+		"/usr/include/c++/9/bits/stl_vector.h",
+		"/home/gaurav/.config/sublime-text/Packages/User/cpp_header_basic.sublime-snippet",
+		"/usr/include/c++/9/bits/stl_algo.h",
+		"/home/gaurav/.config/sublime-text/Packages/SublimeAStyleFormatter/SublimeAStyleFormatter.sublime-settings",
+		"/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h",
+		"/home/gaurav/.config/sublime-text/Packages/Timenow/Timenow.sublime-settings",
+		"/home/gaurav/code/competitive/stdc++.h",
+		"/home/gaurav/code/competitive/new.cpp",
+		"/home/gaurav/code/practice/srtf_scheduler.c",
+		"/home/gaurav/Desktop/java/fib_while.java",
+		"/home/gaurav/Desktop/java/fib_for.java",
+		"/home/gaurav/Desktop/java/pattern2.java",
+		"/home/gaurav/Desktop/java/pattern1.java",
+		"/home/gaurav/code/practice/np_sjf_scheduler.cpp",
+		"/home/gaurav/Desktop/java/fib_",
+		"/home/gaurav/Desktop/reversing/hello.c",
+		"/home/gaurav/Desktop/linked.cpp",
+		"/home/gaurav/Desktop/saver.py",
+		"/home/gaurav/Desktop/back.py",
+		"/home/gaurav/Downloads/sort.cpp",
+		"/home/gaurav/code/practice/test.cpp",
+		"/home/gaurav/code/competitive/done/codechef/HOOPS.cpp",
+		"/home/gaurav/code/competitive/done/codechef/WATSCORE.cpp",
+		"/home/gaurav/code/competitive/solved/codechef/CANDY123.cpp",
+		"/home/gaurav/code/competitive/cp.sublime-workspace",
+		"/home/gaurav/code/competitive/yeahboi.cpp",
+		"/home/gaurav/code/competitive/fuck.cpp",
+		"/home/gaurav/CSE3/CS502/labClass/range_sum.sh",
+		"/home/gaurav/CSE3/CS502/labClass/special.sh",
+		"/home/gaurav/CSE3/CS502/labClass/odd30.sh",
+		"/home/gaurav/code/dataStructures/recursion/number_based_programs/prime_number.cpp",
+		"/home/gaurav/code/dataStructures/recursion/number_based_programs/number_of_digits_p1.cpp",
+		"/home/gaurav/code/dataStructures/recursion/string_based_programs/prime_number.cpp",
+		"/home/gaurav/code/dataStructures/recursion/string_based_programs/reverse_the_string.cpp",
+		"/home/gaurav/code/dataStructures/recursion/string_based_programs/is_string_pallindrome_P1.cpp",
+		"/home/gaurav/code/dataStructures/recursion/string_based_programs/is_string_pallindrome_efficient.cpp",
+		"/home/gaurav/code/dataStructures/recursion/number_based_programs/special_number_using static_variable.cpp",
+		"/home/gaurav/code/dataStructures/recursion/string_based_programs/length_of_string.cpp"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 145.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/gaurav/ds-algo"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "algorithms/primes/sieve_of_eratosthenes.cpp",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": true,
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"bracket_highlighter.clone_locations":
+							{
+							},
+							"bracket_highlighter.ignore": true,
+							"color_scheme": "Terminus.hidden-color-scheme",
+							"default_dir": "/home/gaurav/competitive",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_unicode_white_space": false,
+							"draw_white_space": "none",
+							"gutter": false,
+							"highlight_line": false,
+							"is_widget": true,
+							"result_base_dir": "/home/gaurav/ds-algo",
+							"result_file_regex": null,
+							"result_line_regex": null,
+							"rulers":
+							[
+								500
+							],
+							"scroll_past_end": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminus.highlight_counter": 12,
+							"terminus_view": true,
+							"terminus_view.args":
+							{
+								"auto_close": true,
+								"cancellable": false,
+								"cmd":
+								[
+									"/usr/bin/bash",
+									"-i",
+									"-l"
+								],
+								"cwd": "/home/gaurav/ds-algo",
+								"default_title": "Login Shell",
+								"env":
+								{
+									"LANG": "en_IN",
+									"TERM": "linux",
+									"TERMINUS_SUBLIME": "1",
+									"TERM_PROGRAM": "Terminus-Sublime"
+								},
+								"file_regex": null,
+								"line_regex": null,
+								"panel_name": null,
+								"tag": null,
+								"timeit": false,
+								"title": null
+							},
+							"terminus_view.cancellable": false,
+							"terminus_view.key.ctrl+k": true,
+							"terminus_view.key.ctrl+p": true,
+							"terminus_view.natural_keyboard": true,
+							"terminus_view.panel_name": null,
+							"terminus_view.tag": null,
+							"terminus_view.viewport_y": 0.0,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Debugger":
+	{
+		"height": 306.0
+	},
+	"output.Debugger: Console":
+	{
+		"height": 0.0
+	},
+	"output.Debugger: Protocol":
+	{
+		"height": 0.0
+	},
+	"output.Protocol":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(139802213136224)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(139825563072304)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(139948022245264)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140017625306976)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140114903467920)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140328603563920)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140534271270480)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140636319545232)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140646810683136)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(140678390636656)":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 144.0
+	},
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.diagnostics":
+	{
+		"height": 177.0
+	},
+	"output.exec":
+	{
+		"height": 140.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.language servers":
+	{
+		"height": 106.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups-dummy":
+	{
+		"height": 0.0
+	},
+	"output.references":
+	{
+		"height": 106.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 420.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/code/gfgLive/gfglive.sublime-project"
+			]
+		],
+		"width": 319.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
