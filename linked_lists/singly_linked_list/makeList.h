@@ -64,3 +64,13 @@ void printListBackward(NODE * headNode)
 		cout << *it << " ";
 	cout << "\n";
 }
+
+
+
+NODE * listGen(int size)
+{
+	NODE * temp = nullptr;
+	for(int i = 1; i <= size; i++)
+		temp = createNode(temp, i * 10);
+	return temp; 
+}
