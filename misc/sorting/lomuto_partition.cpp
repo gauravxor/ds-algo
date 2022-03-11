@@ -23,6 +23,9 @@
  * a smaller element to appear.
  * 
  * Keep doing this and we will get the paritioned array.
+ * 
+ * NOTE : LOMUTO PARTITIONING RETURNS THE ACTUAL POSITION OF
+ * THE PIVIOT.
  **/
 
 #include <iostream>
