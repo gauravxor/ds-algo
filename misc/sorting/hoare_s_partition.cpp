@@ -32,7 +32,7 @@
  * 
  * NOTE : Hoare's partition algorithm doesnot ensures that the pivot is
  * placed at it's correct positio but lomuto partitioning does. This algorithm
- * returns the correct position of the pivot. We many perform changes accordingly
+ * returns the correct position of the pivot. We may perform changes accordingly
  * to bring pivot to its final position.
  * 
  **/
