@@ -34,4 +34,24 @@ Worst Case TC : o(n logn)
 SC : O(n) 
 -------------------------------------------------------------------
 
+Quick Sort :
+
+- Divide and Conquer Algorithm
+- Stable only if Naive Partitioning is used
+- Unstable if Lomuto or Hoare's Paritioning is used.
+- In place algorithm
+- Cache Friendly (as not extra copies of array is made)
+- Tail Recursive (Compiler Optimizable)
+
+Best Case TC :     O(n logn)
+Average Case TC :  O(n logn)
+Worst Case TC   :  O(n ^ 2)
+
+SC : Auxillary Stack Space
+
+
+Practically, we randomly select a pivot element in the array to
+avoid getting a worst case time complexity (assuming if the input
+array is sorted).
+-------------------------------------------------------------------
 
