@@ -1,2 +1,5 @@
 *.o
 test.cpp
+testing.cpp
+test.c
+testing.c
