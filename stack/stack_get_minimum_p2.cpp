@@ -100,7 +100,12 @@ int main()
 			if(st.empty() == true)
 				cout << "Empty Stack\n";
 			else
-				cout << st.top() << "\n";
+			{
+				if(st.top() <= 0)
+					cout << minElement << "\n";
+				else
+					cout << st.top() << "\n";
+			}
 		}
 		else
 		if(ch == 4)
