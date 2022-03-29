@@ -1,4 +1,5 @@
 *.o
+*.exe
 test.cpp
 testing.cpp
 test.c
