@@ -15,7 +15,7 @@
                 "revealProblems": "never",
                 "close": false
             },
-            "command": "g++ -std=c++17 -g ${file} -o ${fileDirname}/${fileBasenameNoExtension}.o",
+            "command": "g++ -std=c++17 -g ${file} -o ${fileDirname}/${fileBasenameNoExtension}.exe",
             "problemMatcher": [
             {
                 // "owner": "cpp",
@@ -31,62 +31,62 @@
         },
 
 
-        {
-            "label": "Compile C",
-            "type": "shell",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "dedicated",
-                "showReuseMessage": true,
-                "clear": false
-            },
-            "command": "gcc -g ${file} -o ${fileDirname}/${fileBasenameNoExtension}.o",
-            "problemMatcher": [{
-                // "owner": "c",
-                "base": "$gcc",
-                "fileLocation": [
-                    "absolute"
-                ]
-            }],
-            "group": "build"
-            // "group": {
-            //     "kind": "build",
-            //     "isDefault": true
-            // }
-        },
+//         {
+//             "label": "Compile C",
+//             "type": "shell",
+//             "presentation": {
+//                 "echo": true,
+//                 "reveal": "always",
+//                 "focus": false,
+//                 "panel": "dedicated",
+//                 "showReuseMessage": true,
+//                 "clear": false
+//             },
+//             "command": "gcc -g ${file} -o ${fileDirname}/${fileBasenameNoExtension}.o",
+//             "problemMatcher": [{
+//                 // "owner": "c",
+//                 "base": "$gcc",
+//                 "fileLocation": [
+//                     "absolute"
+//                 ]
+//             }],
+//             "group": "build"
+//             // "group": {
+//             //     "kind": "build",
+//             //     "isDefault": true
+//             // }
+//         },
 
 
 
 
 
-        {
-            "label": "Run C/C++",
-            "type": "shell",
-            "promptOnClose": false,
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": true,
-                "panel": "dedicated",
-                "showReuseMessage": true,
-                "clear": true
-            },
-            "command": "bash-console-runner-start -disable-nohup ${fileDirname}/./${fileBasenameNoExtension}.o",
-            "group": "test",
-            "linux": "true",
-            // "options": {
-            //     "shell": {
-            //         "executable": "xterm",
-            //         "args": [
-            //             "-hold",
-            //             "-e"
-            //         ]
-            //     },
-            // },
+//         {
+//             "label": "Run C/C++",
+//             "type": "shell",
+//             "promptOnClose": false,
+//             "presentation": {
+//                 "echo": true,
+//                 "reveal": "always",
+//                 "focus": true,
+//                 "panel": "dedicated",
+//                 "showReuseMessage": true,
+//                 "clear": true
+//             },
+//             "command": "bash-console-runner-start -disable-nohup ${fileDirname}/./${fileBasenameNoExtension}.o",
+//             "group": "test",
+//             "linux": "true",
+//             // "options": {
+//             //     "shell": {
+//             //         "executable": "xterm",
+//             //         "args": [
+//             //             "-hold",
+//             //             "-e"
+//             //         ]
+//             //     },
+//             // },
 
-        },
+//         },
 
         
     ]
