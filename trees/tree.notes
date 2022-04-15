@@ -1,0 +1,8 @@
+Tree is a non linear data structure.
+It is used when we have to represent data in a hierarchial
+form.
+
+Tree has the following three main traversals
+1) Inorder -> 	Left->Root->Right  (everything done in order)
+2) Preorder ->  Root->Left->Right  (Root at first then the rest)
+3) PostOrder -> Left->Right->Root  (Root at end and remaining in order)
