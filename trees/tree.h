@@ -37,6 +37,33 @@ void inOrder(Node * root)
 /*--------------------------------------------------------*/
 
 
+/*----------------Level Order Traversal-------------------*/
+void levelOrder(Node * root)
+{
+	if(root == nullptr)
+		cout << "Empty Tree\n";
+	
+	queue <Node *> q;
+	q.push(root);
+
+	while(q.empty() != true)
+	{
+		Node * currentNode = q.front();
+		cout << currentNode->data << " ";
+
+		q.pop();		
+		if(currentNode->lchild != nullptr)
+			q.push(currentNode->lchild);
+
+		if(currentNode->rchild != nullptr)
+			q.push(currentNode->rchild);
+
+	}
+	cout << "\n";
+}
+/*-------------------------------------------------------*/
+
+
 
 /*----------Function to delete the NODES of tree----------*/
 void freeNodes(Node * root)
@@ -102,7 +129,7 @@ Node * create()
 			q.push(temp);  // enqueing the node to process later for its L&R Child
 		}
 
-		cout << "Enter the right child of " << curr->data << "\n\n";
+		cout << "Enter the right child of " << curr->data << "\n";
 		cin >> val;
 		if(val != -1)
 		{
