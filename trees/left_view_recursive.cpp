@@ -65,7 +65,7 @@ int main()
 	Node * root = create();
 
 	cout << "The left view of the tree is\n";
-	leftView(root, 0);
+	leftView(root, 1);
 	cout << "\n";
 	return 0;
 }
