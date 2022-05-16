@@ -1,5 +1,6 @@
 #include <iostream>
 #include <queue>
+#include <stack>
 using namespace std;
 
 /*--------Class for a single node of the root-------------*/
@@ -20,64 +21,6 @@ public:
 };
 
 /*--------------------------------------------------------*/
-
-
-
-
-/*----------Inorder Traversal (Left->Root->Right)---------*/
-void inOrder(Node * root)
-{
-	if(root != nullptr)
-	{
-		inOrder(root->lchild);
-		cout << root->data << " ";
-		inOrder(root->rchild);
-	}
-}
-/*--------------------------------------------------------*/
-
-
-/*----------------Level Order Traversal-------------------*/
-void levelOrder(Node * root)
-{
-	if(root == nullptr)
-		cout << "Empty Tree\n";
-	
-	queue <Node *> q;
-	q.push(root);
-
-	while(q.empty() != true)
-	{
-		Node * currentNode = q.front();
-		cout << currentNode->data << " ";
-
-		q.pop();		
-		if(currentNode->lchild != nullptr)
-			q.push(currentNode->lchild);
-
-		if(currentNode->rchild != nullptr)
-			q.push(currentNode->rchild);
-
-	}
-	cout << "\n";
-}
-/*-------------------------------------------------------*/
-
-
-
-/*----------Function to delete the NODES of tree----------*/
-void freeNodes(Node * root)
-{
-	if(root != nullptr)
-	{
-		freeNodes(root->lchild);
-		Node * temp = root->rchild;
-		delete root;
-		freeNodes(temp);
-	}
-}
-/*--------------------------------------------------------*/
-
 
 
 
@@ -141,3 +84,105 @@ Node * create()
 	}
 	return root;
 }
+/*------------------------------------------------------------------*/
+
+
+
+
+
+
+/*----------Inorder Traversal (Left->Root->Right)---------*/
+void inOrder(Node * root)
+{
+	if(root != nullptr)
+	{
+		inOrder(root->lchild);
+		cout << root->data << " ";
+		inOrder(root->rchild);
+	}
+}
+/*--------------------------------------------------------*/
+
+
+
+
+
+/*----------------Level Order Traversal-------------------*/
+void levelOrder(Node * root)
+{
+	if(root == nullptr)
+		cout << "Empty Tree\n";
+	
+	queue <Node *> q;
+	q.push(root);
+
+	while(q.empty() != true)
+	{
+		Node * currentNode = q.front();
+		cout << currentNode->data << " ";
+
+		q.pop();		
+		if(currentNode->lchild != nullptr)
+			q.push(currentNode->lchild);
+
+		if(currentNode->rchild != nullptr)
+			q.push(currentNode->rchild);
+
+	}
+	cout << "\n";
+}
+/*-------------------------------------------------------*/
+
+
+
+
+
+
+/*----------Function to delete the NODES of tree----------*/
+void freeNodes(Node * root)
+{
+	if(root != nullptr)
+	{
+		freeNodes(root->lchild);
+		Node * temp = root->rchild;
+		delete root;
+		freeNodes(temp);
+	}
+}
+/*--------------------------------------------------------*/
+
+
+
+
+
+/**-------------Function to print nodes level wise--------*/
+
+void printLevelWise(Node * root)
+{
+	if(root == nullptr)
+		return;
+
+	queue<Node *> q;
+	q.push(root);
+
+	while(q.empty() != true)
+	{
+		int nodesCount = q.size();
+		while(nodesCount)
+		{
+			if(q.front() == nullptr)
+				cout << "-1 ";
+			else
+			{
+				cout << q.front()->data << " ";
+				q.push(q.front()->lchild);
+				q.push(q.front()->rchild);
+			}	
+			q.pop();
+			nodesCount--;
+		}
+		cout << "\n";
+	}
+}
+/*---------------------------------------------------------*/
+
