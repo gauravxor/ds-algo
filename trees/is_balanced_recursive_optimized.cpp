@@ -66,7 +66,7 @@ int isBalanced(Node *root)
 int main()
 {
 	Node *root = create();
-	if(isBalanced(root))
+	if(isBalanced(root) != -1)
 		cout << "Balanced\n";
 	else
 		cout << "Un-Balanced\n";
