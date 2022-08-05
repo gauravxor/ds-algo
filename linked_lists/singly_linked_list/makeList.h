@@ -8,6 +8,7 @@ struct NODE
 	NODE(int value)
 	{
 		data = value;
+		next = nullptr;
 	}
 };
 
