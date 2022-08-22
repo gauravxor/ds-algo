@@ -1,6 +1,10 @@
+/**
+ * https://leetcode.com/problems/reverse-integer/
+ */
+
+
 #include <iostream>
 using namespace std;
-
 
 int reverse_number(int number)
 {
@@ -13,7 +17,6 @@ int reverse_number(int number)
 	}
 	return reversed_number;
 }
-
 
 
 int main()
