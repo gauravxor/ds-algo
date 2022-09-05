@@ -3,3 +3,6 @@ testing.cpp
 runner.cpp
 code.cpp
 *.o
+in
+out
+
