@@ -1,11 +1,15 @@
 test.cpp
 testing.cpp
+tester.cpp
 runner.cpp
+checker.cpp
 code.cpp
 *.o
 in
 out
 *.sublime-project
 *.sublime-workspace
-*.clang-format
+.clang-format
 .vscode/*
+TODO.txt
+TODO
