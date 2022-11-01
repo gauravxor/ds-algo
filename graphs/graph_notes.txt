@@ -1,0 +1,69 @@
+Graphs can be represented by two main components.
+1) Vertices
+2) Edges
+
+
+Graph are of two types
+1) Directed ->  There is a point fo direction, i.e. the path between the vertices have a direction.
+   When we represent directed graph using vertices we write  (v1, v2), meanning there is a path from v1
+   to v2, but we cannot write (v2, v1), because that will be a violation.
+   There are few terms related to directed graph.
+   a) In-degree -> The number of edges coming to a vertex.
+   b) Out-degree -> The number of edges going out of a vertex.
+   Maximum number of edges = V * (V - 1)
+   Sum of both indegree and outdegree = |E| (the total number of edges)
+
+2) Un-directed -> There is not point of direction, i.e. the path between the vertices are bidirectional.
+   When we represent un-directed graph using vertices we can write (v1, v2) or (v2, v1), as the path is
+   bidirectional.
+   There are few terms related to un-directed graph.
+   a) Degree -> The numbers of paths passing through a given vertex.
+   Maximum number of edges = (V * (V - 1)) / 2
+   Sum of degrees of all vertices = |E| * 2 (eath path is bidirectional)
+
+
+General terms related to graph
+1) Walk (Path) -> The sequence of vertices, that we get by following the vectices of the graph.
+   It can have repeated vertices.
+2) Path (Simple Path) -> It is same as WALK but we cannot have repeated vertices here.
+3) Cyclic -> There is a WALK, that begins and ends with the same vertex. (contains a cycle)
+4) Acyclic -> There is a WALK, that does not begins and ends with the same vertex. (does not contains a cycle)
+5) Weighted Graph -> Each edge of the graph will contain some weight (values) on it.
+6) Un-Weighted Graph -> Each edge of the graph will NOT contain any weight on it.
+
+
+TREES ARE UNDIRECTED ACYCLIC GRAPHS.
+
+
+
+GRAPHS CAN BE REPRSENTED IN TWO WAYS
+1) Adjacency matrix
+   Size of the matrix = |V| * |V|
+   If there is an edge between a given two given vertices, then mat[v1][v2] is marked as 1, or 0 otherwise.
+
+   For an undirected graph, the matrix is a symmetic matrix.
+
+   If the name of the vectices are represented as a string, then we can store the names in a hash table, and
+   assign an index number to it, and use that index number to  generate the graph.
+
+    Space Complexity of Adjacency Matrix: Theta (V * V)
+    Operations:
+    a) Checking if two vectices are adjacent -> Theta(1)
+    b) Getting all adj. vertices of a given vertex -> Theta(V)
+    c) Getting degree of a given vertex -> Theta(V)
+    d) Remove/Add an Edge -> Theta(1)
+    e) Remove/Add a Vertex -> Theta(V * V) (because we have to re-generate the whole matrix again)
+    
+
+
+2) Adjacency list
+    Space Complexity :
+    a) For directed graph -> Theta(V + E)
+    b) For un-directed graph -> Theta(V + 2 * E)
+
+    Operations:
+    a) Checking if two vectices are adjacent -> O(V)
+    b) Getting all adj. vertices of a given vertex v -> Theta(Degree(v))
+    c) Getting degree of a given vertex -> Theta(1)
+    d) Remove/Add an Edge -> Theta(1)
+    e) Remove/Add a Vertex -> Theta(V)
