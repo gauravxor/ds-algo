@@ -1,6 +1,7 @@
 *.o
 *.exe
 test.cpp
+test*
 testing.cpp
 test.c
 testing.c
