@@ -8,3 +8,7 @@ testing.c
 todo.todo
 .vscode/
 .clang-format
+in
+out
+input
+output
