@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "gaurav",
+            "request": "launch",
+            "mainClass": "gaurav",
+            "projectName": "ds-algo_a1cc07cf"
+        },
+        {
+            "type": "java",
+            "name": "testingFile",
+            "request": "launch",
+            "mainClass": "testingFile",
+            "projectName": "ds-algo_a1cc07cf"
+        },
+        {
+            "type": "java",
+            "name": "gaurav",
+            "request": "launch",
+            "mainClass": "${fileBasenameNoExtension}",
+            "projectName": "ds-algo_a1cc07cf"
+        },
+        {
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
