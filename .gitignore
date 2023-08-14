@@ -1,12 +1,11 @@
 *.o
 *.exe
-test.cpp
+*.out
 test*
-testing.cpp
-test.c
-testing.c
+code.cpp
 todo.todo
 in
 out
 input
 output
+.gdb_history
