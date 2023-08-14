@@ -12,7 +12,7 @@ void generateCombinations(vector<int> &v, int index, int target, vector<int> c, 
     if(index == v.size() || v[index] > target) {
         return;
     }
-        c.push_back(v[index]);
+    c.push_back(v[index]);
     generateCombinations(v, index, target - v[index], c, ans);
     c.pop_back();
     generateCombinations(v, index + 1, target, c, ans);
