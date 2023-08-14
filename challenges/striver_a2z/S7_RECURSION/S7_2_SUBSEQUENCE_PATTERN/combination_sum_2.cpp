@@ -5,18 +5,28 @@
 #include <numeric>
 using namespace std;
 
-void generateCombinations(vector<int> &v, int index, int target, vector<int> c, set<vector<int>> &st) {
+void generateCombinations(vector<int> &v, int index, int target, vector<int> temp, vector<vector<int>> &ans) {
+
     if(target == 0) {
-        st.insert(c);
+        ans.push_back(temp);
         return;
     }
+
     if(index == v.size() || v[index] > target) {
         return;
     }
-    c.push_back(v[index]);
-    generateCombinations(v, index + 1, target - v[index], c, st);
-    c.pop_back();
-    generateCombinations(v, index + 1, target, c, st);
+
+    for(int i = index; i < v.size(); i++) {
+        if(i != index && v[i] == v[i - 1]) {
+            continue;
+        }
+        if(v[i] > target) {
+            return;
+        }
+        temp.push_back(v[i]);
+        generateCombinations(v, i + 1, target - v[i], temp, ans);
+        temp.pop_back();
+    }
 }
 
 int main() {
@@ -32,13 +42,7 @@ int main() {
     cin >> target;
 
     sort(v.begin(), v.end());
-    cout << "Sorted\n";
-    int sum = accumulate(v.begin(), v.end(), 0);
-    if(sum < target) {
-        cout << "Not possible\n";
-        return 0;
-    }
-    set<vector<int>> combinations;
+    vector<vector<int>> combinations;
     generateCombinations(v, 0, target, {}, combinations);
 
     for(auto it: combinations) {
