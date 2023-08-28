@@ -91,3 +91,14 @@ void freeMemory(Node *rootNode) {
     freeMemory(rootNode->right);
     delete(rootNode);
 }
+
+bool getHeight(Node *rootNode) {
+    if(rootNode == nullptr) {
+        return 0;
+    }
+
+    int leftSubtreeHeight = 1 + getHeight(rootNode->left);
+    int rightSubtreeHeight = 1 + getHeight(rootNode->right);
+
+    return max(leftSubtreeHeight, rightSubtreeHeight);
+}
