@@ -92,7 +92,7 @@ void freeMemory(Node *rootNode) {
     delete(rootNode);
 }
 
-bool getHeight(Node *rootNode) {
+int getHeight(Node *rootNode) {
     if(rootNode == nullptr) {
         return 0;
     }
