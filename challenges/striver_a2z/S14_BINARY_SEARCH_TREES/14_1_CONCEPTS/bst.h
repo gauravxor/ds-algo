@@ -3,12 +3,12 @@
 
 using namespace std;
 class Node {
-public:
+  public:
     int data;
     Node *left;
     Node *right;
 
-    Node () {
+    Node() {
         data = 0;
         left = right = nullptr;
     }
@@ -25,7 +25,7 @@ public:
     }
 };
 
-Node* createTree() {
+Node *createTree() {
     Node *rootNode = nullptr;
     cout << "Enter the data of root node\n";
     int rootData;
@@ -38,27 +38,27 @@ Node* createTree() {
     vector<int> inputData;
     inputData.push_back(rootData);
 
-    while(!q.empty()) {
+    while (!q.empty()) {
         Node *currentNode = q.front();
         q.pop();
         cout << "Enter the left child of " << currentNode->data << ", -1 to skip\n";
         cin >> childData;
         inputData.push_back(childData);
-        if(childData != -1) {
+        if (childData != -1) {
             currentNode->left = new Node(childData);
             q.push(currentNode->left);
         }
         cout << "Enter the right child of " << currentNode->data << ", -1 to skip\n";
         cin >> childData;
         inputData.push_back(childData);
-        if(childData != -1) {
+        if (childData != -1) {
             currentNode->right = new Node(childData);
             q.push(currentNode->right);
         }
     }
 
     cout << "\nInput Data\n";
-    for(int i : inputData) {
+    for (int i : inputData) {
         cout << i << " ";
     }
     cout << "\n";
@@ -69,14 +69,14 @@ void printLevelOrder(Node *rootNode) {
     queue<Node *> q;
     q.push(rootNode);
 
-    while(!q.empty()) {
+    while (!q.empty()) {
         Node *currentNode = q.front();
         q.pop();
         cout << currentNode->data << " ";
-        if(currentNode->left != nullptr) {
+        if (currentNode->left != nullptr) {
             q.push(currentNode->left);
         }
-        if(currentNode->right != nullptr) {
+        if (currentNode->right != nullptr) {
             q.push(currentNode->right);
         }
     }
@@ -84,16 +84,16 @@ void printLevelOrder(Node *rootNode) {
 }
 
 void freeMemory(Node *rootNode) {
-    if(rootNode == nullptr) {
+    if (rootNode == nullptr) {
         return;
     }
     freeMemory(rootNode->left);
     freeMemory(rootNode->right);
-    delete(rootNode);
+    delete (rootNode);
 }
 
 int getHeight(Node *rootNode) {
-    if(rootNode == nullptr) {
+    if (rootNode == nullptr) {
         return 0;
     }
 
@@ -101,4 +101,32 @@ int getHeight(Node *rootNode) {
     int rightSubtreeHeight = 1 + getHeight(rootNode->right);
 
     return max(leftSubtreeHeight, rightSubtreeHeight);
+}
+
+void printTreeData(Node *rootNode) {
+    vector<int> treeData;
+    if (rootNode == nullptr) {
+        return;
+    }
+
+    queue<Node *> q;
+    q.push(rootNode);
+    treeData.push_back(rootNode->data);
+
+    while (q.size() != 0) {
+        Node *front = q.front();
+        q.pop();
+        treeData.push_back((front->left == nullptr) ? -1 : front->left->data);
+        treeData.push_back((front->right == nullptr) ? -1 : front->right->data);
+        if (front->left != nullptr)
+            q.push(front->left);
+        if (front->right != nullptr)
+            q.push(front->right);
+    }
+
+    cout << "The tree data is\n";
+    for (int i : treeData) {
+        cout << i << " ";
+    }
+    cout << "\n";
 }
