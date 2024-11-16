@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lc_1",
+            "request": "launch",
+            "mainClass": "leetcode.easy.lc_1",
+            "projectName": "ds-algo_32affc56"
+        },
+        {
+            "type": "java",
+            "name": "d1_lc",
+            "request": "launch",
+            "mainClass": "leetcode.easy.d1_lc",
+            "projectName": "ds-algo_32affc56"
+        },
+        {
+            "type": "java",
             "name": "hello",
             "request": "launch",
             "mainClass": "leetcode.easy.hello",
