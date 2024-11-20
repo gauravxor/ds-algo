@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lc_169",
+            "request": "launch",
+            "mainClass": "leetcode.easy.lc_169",
+            "projectName": "ds-algo_32affc56"
+        },
+        {
+            "type": "java",
+            "name": "lc_53",
+            "request": "launch",
+            "mainClass": "leetcode.medium.lc_53",
+            "projectName": "ds-algo_32affc56"
+        },
+        {
+            "type": "java",
+            "name": "lc_75",
+            "request": "launch",
+            "mainClass": "leetcode.medium.lc_75",
+            "projectName": "ds-algo_32affc56"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "leetcode.easy.test",
+            "projectName": "ds-algo_32affc56"
+        },
+        {
+            "type": "java",
             "name": "lc_1",
             "request": "launch",
             "mainClass": "leetcode.easy.lc_1",
